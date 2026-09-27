@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#010736"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="#FCF1D0" stroke-width="2" stroke-opacity="0.3"/>
+  <!-- Stylized Flutter / Tech Emblem -->
+  <path d="M38 14L18 34L25 41L45 21L38 14Z" fill="#FCF1D0"/>
+  <path d="M38 34L28 44L35 51L45 41L38 34Z" fill="#22396F"/>
+  <path d="M45 41L38 34L45 27L52 34L45 41Z" fill="#FCF1D0" fill-opacity="0.85"/>
+</svg>

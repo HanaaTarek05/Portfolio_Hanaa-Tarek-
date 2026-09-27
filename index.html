@@ -1,0 +1,2292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO & Social Meta Tags -->
+
+  <title>Hanaa Tarek | Flutter Developer & Mobile App Engineer</title>
+
+  <meta
+    name="description"
+    content="Portfolio of Hanaa Tarek - Mobile App Developer, Flutter Developer, and Software Engineer. Crafting modern, responsive, and high-performance Android and iOS applications."
+  >
+
+  <meta
+    name="keywords"
+    content="Hanaa Tarek, Flutter Developer, Mobile App Developer, Software Engineer, Dart, Mobile UI, Android, iOS, Clean Architecture"
+  >
+
+  <meta name="author" content="Hanaa Tarek">
+
+  <meta name="theme-color" content="#010736">
+
+  <!-- Open Graph -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hanaatarek.dev/">
+
+  <meta
+    property="og:title"
+    content="Hanaa Tarek | Flutter Developer & Mobile App Engineer"
+  >
+
+  <meta
+    property="og:description"
+    content="Flutter Developer with experience building modern, responsive mobile applications with clean architecture and scalable code."
+  >
+
+  <meta
+    property="og:image"
+    content="assets/images/pro.jpeg"
+  >
+
+  <!-- Twitter Card -->
+
+
+  <meta property="twitter:card" content="summary_large_image">
+
+  <meta
+    property="twitter:title"
+    content="Hanaa Tarek | Flutter Developer & Mobile App Engineer"
+  >
+
+  <meta
+    property="twitter:description"
+    content="Flutter Developer building modern Android & iOS mobile applications with clean UI and maintainable code."
+  >
+
+  <meta
+    property="twitter:image"
+    content="assets/images/pro.jpeg"
+  >
+
+  <!-- Favicon -->
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="assets/icons/profile-icon.svg"
+  >
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Stylesheet -->
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Small image styling -->
+  <style>
+
+    /* =========================
+       PROFILE IMAGE - HERO
+       ========================= */
+
+    .hero-profile-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      border-radius: 28px;
+    }
+
+    .avatar-image-wrapper {
+      width: 100%;
+      height: 100%;
+      min-height: 420px;
+      border-radius: 28px;
+      overflow: hidden;
+      position: relative;
+      background: #010736;
+    }
+
+    .avatar-image-wrapper::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        135deg,
+        rgba(1, 7, 54, 0.05),
+        rgba(1, 7, 54, 0.25)
+      );
+      pointer-events: none;
+    }
+
+
+    /* =========================
+       PROFILE IMAGE - ABOUT
+       ========================= */
+
+    .about-profile-image-wrapper {
+      width: 100%;
+      height: 100%;
+      min-height: 430px;
+      border-radius: 24px;
+      overflow: hidden;
+      position: relative;
+      background: #010736;
+    }
+
+    .about-profile-image {
+      width: 100%;
+      height: 100%;
+      min-height: 430px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+
+    .about-profile-image-wrapper::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        135deg,
+        rgba(1, 7, 54, 0.05),
+        rgba(1, 7, 54, 0.30)
+      );
+      pointer-events: none;
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+  <!-- Accessibility -->
+
+  <a href="#main-content" class="skip-link">
+    Skip to main content
+  </a>
+
+
+  <!-- Ambient Background -->
+
+  <div class="bg-pattern-layer" aria-hidden="true">
+
+    <div class="ambient-glow glow-1"></div>
+
+    <div class="ambient-glow glow-2"></div>
+
+    <div class="ambient-glow glow-3"></div>
+
+    <div class="tech-grid"></div>
+
+  </div>
+
+
+  <!-- ==============================
+       HEADER
+       ============================== -->
+
+  <header class="site-header" id="site-header">
+
+    <div class="container header-container">
+
+      <!-- Logo -->
+
+      <a
+        href="#home"
+        class="brand-logo"
+        aria-label="Hanaa Tarek Portfolio Home"
+      >
+
+        <span class="logo-symbol">
+          &lt;HT /&gt;
+        </span>
+
+        <span class="logo-text">
+          Hanaa Tarek
+        </span>
+
+      </a>
+
+
+      <!-- Navigation -->
+
+      <nav
+        class="main-navigation"
+        id="primary-navigation"
+        aria-label="Primary Navigation"
+      >
+
+        <ul class="nav-list">
+
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link">
+              About
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#education" class="nav-link">
+              Education
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">
+              Experience
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">
+              Skills
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">
+              Projects
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">
+              Testimonials
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#services" class="nav-link">
+              Services
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!-- Mobile Menu -->
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        aria-label="Toggle navigation menu"
+      >
+
+        <span class="hamburger-bar"></span>
+
+        <span class="hamburger-bar"></span>
+
+        <span class="hamburger-bar"></span>
+
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <!-- ==============================
+       MAIN
+       ============================== -->
+
+  <main id="main-content">
+
+
+    <!-- ==============================
+         HERO SECTION
+         ============================== -->
+
+    <section
+      class="section hero-section"
+      id="home"
+      aria-label="Hero Section"
+    >
+
+      <div class="container hero-container">
+
+
+        <!-- HERO CONTENT -->
+
+        <div class="hero-content">
+
+
+          <div class="hero-status-pill">
+
+            <span class="pulse-indicator"></span>
+
+            <span>
+              Available for Mobile Projects
+            </span>
+
+          </div>
+
+
+          <p class="hero-greeting">
+            Hello, I'm
+          </p>
+
+
+          <h1 class="hero-title">
+            Hanaa Tarek
+          </h1>
+
+
+          <!-- Dynamic Roles -->
+
+          <div
+            class="role-rotator-container"
+            aria-label="Professional roles"
+          >
+
+            <span class="role-static">
+              Specialized in
+            </span>
+
+            <span
+              class="role-rotating"
+              id="role-rotating"
+              aria-live="polite"
+            >
+              Flutter Developer
+            </span>
+
+          </div>
+
+
+          <p class="hero-bio">
+
+            Flutter Developer with experience building modern mobile
+            applications, creating clean and responsive interfaces,
+            reliable functionality, and scalable solutions with
+            well-structured, maintainable code.
+
+          </p>
+
+
+          <!-- Buttons -->
+
+          <div class="hero-actions">
+
+
+            <a
+              href="#projects"
+              class="btn btn-primary"
+            >
+
+              <span>
+                View Projects
+              </span>
+
+              <svg
+                class="btn-icon"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+
+                <line
+                  x1="5"
+                  y1="12"
+                  x2="19"
+                  y2="12"
+                ></line>
+
+                <polyline
+                  points="12 5 19 12 12 19"
+                ></polyline>
+
+              </svg>
+
+            </a>
+
+
+            <!-- CV -->
+
+            <a
+              href="assets/cv/Hanaa-Tarek-CV.pdf"
+              download="Hanaa-Tarek-CV.pdf"
+              class="btn btn-secondary"
+              aria-label="Download Hanaa Tarek's CV PDF"
+            >
+
+              <svg
+                class="btn-icon"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+
+                <path
+                  d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                ></path>
+
+                <polyline
+                  points="7 10 12 15 17 10"
+                ></polyline>
+
+                <line
+                  x1="12"
+                  y1="15"
+                  x2="12"
+                  y2="3"
+                ></line>
+
+              </svg>
+
+              <span>
+                Download CV
+              </span>
+
+            </a>
+
+          </div>
+
+
+          <!-- Highlights -->
+
+          <div class="hero-highlights">
+
+
+            <div class="highlight-item">
+
+              <span class="highlight-number">
+                iOS &amp; Android
+              </span>
+
+              <span class="highlight-label">
+                Cross-Platform
+              </span>
+
+            </div>
+
+
+            <div
+              class="highlight-divider"
+              aria-hidden="true"
+            ></div>
+
+
+            <div class="highlight-item">
+
+              <span class="highlight-number">
+                Clean Code
+              </span>
+
+              <span class="highlight-label">
+                Architecture Driven
+              </span>
+
+            </div>
+
+
+            <div
+              class="highlight-divider"
+              aria-hidden="true"
+            ></div>
+
+
+            <div class="highlight-item">
+
+              <span class="highlight-number">
+                Responsive
+              </span>
+
+              <span class="highlight-label">
+                Pixel-Perfect UI
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- ==============================
+             HERO IMAGE
+             ============================== -->
+
+        <div
+          class="hero-visual"
+          aria-label="Hanaa Tarek profile image"
+        >
+
+          <div class="avatar-card-wrapper">
+
+            <div class="avatar-card">
+
+
+              <!-- Profile Image -->
+
+              <div class="avatar-image-wrapper">
+
+                <img
+                  src="assets/images/pro.jpeg"
+                  alt="Hanaa Tarek - Flutter Developer"
+                  class="hero-profile-image"
+                >
+
+              </div>
+
+
+              <!-- Floating Badges -->
+
+              <div class="floating-chip chip-1">
+
+                <span class="chip-dot"></span>
+
+                <span>
+                  Flutter 3.x
+                </span>
+
+              </div>
+
+
+              <div class="floating-chip chip-2">
+
+                <span class="chip-dot"></span>
+
+                <span>
+                  Dart OOP
+                </span>
+
+              </div>
+
+
+              <div class="floating-chip chip-3">
+
+                <span class="chip-dot"></span>
+
+                <span>
+                  REST &amp; Firebase
+                </span>
+
+              </div>
+
+            </div>
+
+
+            <div
+              class="avatar-glow-blur"
+              aria-hidden="true"
+            ></div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         ABOUT SECTION
+         ============================== -->
+
+    <section
+      class="section about-section"
+      id="about"
+      aria-label="About Me Section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-header">
+
+          <p class="section-subtitle">
+            Get To Know Me
+          </p>
+
+          <h2 class="section-title">
+            About Me
+          </h2>
+
+          <div
+            class="section-title-line"
+            aria-hidden="true"
+          ></div>
+
+        </div>
+
+
+        <div class="about-grid">
+
+
+          <!-- ==============================
+               ABOUT IMAGE
+               ============================== -->
+
+          <div class="about-visual">
+
+            <div class="about-image-card">
+
+
+              <div class="about-profile-image-wrapper">
+
+                <img
+                  src="assets/images/pro.jpeg"
+                  alt="Hanaa Tarek - Mobile App Developer"
+                  class="about-profile-image"
+                >
+
+              </div>
+
+
+              <div class="experience-corner-badge">
+
+                <span class="badge-text">
+                  Mobile Engineer
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- ==============================
+               ABOUT CONTENT
+               ============================== -->
+
+          <div class="about-content">
+
+
+            <h3 class="about-headline">
+
+              Crafting Seamless, High-Performance
+              Mobile Applications
+
+            </h3>
+
+
+            <p class="about-paragraph">
+
+              I am a dedicated
+              <strong>Flutter Developer</strong>
+              passionate about designing and developing modern
+              <strong>Android and iOS</strong>
+              mobile experiences. I specialize in bridging visually
+              captivating user interfaces with solid engineering
+              principles to build applications that are fluid,
+              intuitive, and robust.
+
+            </p>
+
+
+            <p class="about-paragraph">
+
+              My engineering philosophy revolves around
+              <strong>Clean Code</strong>,
+              maintainable architecture, and proactive performance
+              optimization. I turn complex product ideas into
+              responsive, production-ready mobile apps that deliver
+              genuine value to end users.
+
+            </p>
+
+
+            <!-- Competencies -->
+
+            <div class="about-competencies">
+
+              <h4 class="competencies-title">
+
+                Core Competencies &amp; Expertise:
+
+              </h4>
+
+
+              <ul class="competencies-list">
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Flutter
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Dart
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Android &amp; iOS Interfaces
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Responsive UI
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  REST APIs
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Authentication
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Databases
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Application Architecture
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Clean Code
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Maintainable &amp; Scalable Code
+                </li>
+
+                <li class="competency-badge">
+                  <span class="badge-bullet">✦</span>
+                  Performance Optimization
+                </li>
+
+              </ul>
+
+            </div>
+
+
+            <!-- About Buttons -->
+
+            <div class="about-actions">
+
+              <a
+                href="#experience"
+                class="btn btn-secondary btn-sm"
+              >
+                Explore Experience
+              </a>
+
+              <a
+                href="#contact"
+                class="btn btn-outline btn-sm"
+              >
+                Get in Touch
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         EDUCATION
+         ============================== -->
+
+    <section
+      class="section education-section"
+      id="education"
+      aria-label="Education Section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-header">
+
+          <p class="section-subtitle">
+            Academic Background
+          </p>
+
+          <h2 class="section-title">
+            Education
+          </h2>
+
+          <div
+            class="section-title-line"
+            aria-hidden="true"
+          ></div>
+
+        </div>
+
+
+        <div class="timeline-container">
+
+          <div
+            class="timeline-track"
+            aria-hidden="true"
+          ></div>
+
+
+          <div class="timeline-node education-node">
+
+
+            <div
+              class="timeline-icon-box"
+              aria-label="Academic icon"
+            >
+
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#FCF1D0"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+
+                <path
+                  d="M22 10v6M2 10l10-5 10 5-10 5z"
+                ></path>
+
+                <path
+                  d="M6 12v5c3 3 9 3 12 0v-5"
+                ></path>
+
+              </svg>
+
+            </div>
+
+
+            <div class="timeline-card education-card">
+
+
+              <div class="card-meta-row">
+
+                <span class="degree-badge">
+                  Bachelor's Degree
+                </span>
+
+                <span class="timeline-tag">
+                  Computer Science
+                </span>
+
+              </div>
+
+
+              <h3 class="degree-title">
+
+                Bachelor's Degree in Computer Science
+
+              </h3>
+
+
+              <p class="institution-name">
+
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="inline-icon"
+                  aria-hidden="true"
+                >
+
+                  <rect
+                    x="3"
+                    y="4"
+                    width="18"
+                    height="18"
+                    rx="2"
+                    ry="2"
+                  ></rect>
+
+                  <line
+                    x1="16"
+                    y1="2"
+                    x2="16"
+                    y2="6"
+                  ></line>
+
+                  <line
+                    x1="8"
+                    y1="2"
+                    x2="8"
+                    y2="6"
+                  ></line>
+
+                  <line
+                    x1="3"
+                    y1="10"
+                    x2="21"
+                    y2="10"
+                  ></line>
+
+                </svg>
+
+                Faculty of Computers and Information,
+                EL Saleheya EL Gadida University
+
+              </p>
+
+
+              <div class="coursework-container">
+
+                <h4 class="coursework-heading">
+
+                  Relevant Academic Coursework:
+
+                </h4>
+
+
+                <div class="coursework-tags">
+
+                  <span class="course-tag">
+                    Mobile Application Development
+                  </span>
+
+                  <span class="course-tag">
+                    Object-Oriented Programming (OOP)
+                  </span>
+
+                  <span class="course-tag">
+                    Database Systems
+                  </span>
+
+                  <span class="course-tag">
+                    Software Engineering
+                  </span>
+
+                  <span class="course-tag">
+                    Web Development
+                  </span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         EXPERIENCE
+         ============================== -->
+
+    <section
+      class="section experience-section"
+      id="experience"
+      aria-label="Experience Section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-header">
+
+          <p class="section-subtitle">
+            Professional Path
+          </p>
+
+          <h2 class="section-title">
+            Experience
+          </h2>
+
+          <div
+            class="section-title-line"
+            aria-hidden="true"
+          ></div>
+
+        </div>
+
+
+        <div class="experience-timeline">
+
+
+          <div class="experience-card">
+
+
+            <div class="exp-header">
+
+              <div class="exp-role-info">
+
+                <div class="exp-badge-container">
+
+                  <span class="exp-status-chip">
+                    Mobile Development
+                  </span>
+
+                </div>
+
+
+                <h3 class="exp-position">
+                  Flutter Developer
+                </h3>
+
+
+                <p class="exp-focus">
+                  Android &amp; iOS Mobile Applications
+                </p>
+
+              </div>
+
+
+              <div
+                class="exp-tech-icon"
+                aria-hidden="true"
+              >
+
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#FCF1D0"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+
+                  <rect
+                    x="5"
+                    y="2"
+                    width="14"
+                    height="20"
+                    rx="2"
+                    ry="2"
+                  ></rect>
+
+                  <line
+                    x1="12"
+                    y1="18"
+                    x2="12.01"
+                    y2="18"
+                  ></line>
+
+                </svg>
+
+              </div>
+
+            </div>
+
+
+            <p class="exp-description">
+
+              Developing modern Flutter mobile applications with a
+              strong focus on clean UI, responsive layouts,
+              reliable functionality, and maintainable code.
+
+            </p>
+
+
+            <div class="exp-responsibilities">
+
+              <h4 class="resp-heading">
+                Key Engineering Responsibilities:
+              </h4>
+
+
+              <ul class="resp-list">
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Developing Flutter mobile applications.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Building reusable UI components.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Creating responsive interfaces.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Integrating REST APIs.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Implementing authentication systems.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Working with databases.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Handling application state and data flow.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Testing application functionality.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Debugging and fixing issues.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>Improving application performance.</span>
+                </li>
+
+                <li class="resp-item">
+                  <span class="check-icon">✓</span>
+                  <span>
+                    Writing clean, organized, and maintainable code.
+                  </span>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         SKILLS
+         ============================== -->
+
+    <section
+      class="section skills-section"
+      id="skills"
+      aria-label="Skills Section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-header">
+
+          <p class="section-subtitle">
+            Technical Toolkit
+          </p>
+
+          <h2 class="section-title">
+            My Skills
+          </h2>
+
+          <div
+            class="section-title-line"
+            aria-hidden="true"
+          ></div>
+
+
+          <p class="section-intro">
+
+            A comprehensive set of modern mobile development tools,
+            architectures, and engineering skills utilized to build
+            reliable and scalable software solutions.
+
+          </p>
+
+        </div>
+
+
+        <div
+          class="skills-grid"
+          id="skills-grid"
+        >
+
+          <noscript>
+
+            <div class="skills-noscript-grid">
+
+              <div class="skill-card">
+                <h4>Flutter</h4>
+                <p>Cross-platform mobile framework</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>Dart</h4>
+                <p>Core programming language</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>Firebase</h4>
+                <p>Auth, Firestore, Cloud Functions</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>REST APIs</h4>
+                <p>Endpoints &amp; network communication</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>UI/UX</h4>
+                <p>Modern mobile design principles</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>Responsive Design</h4>
+                <p>Adaptability across all screen sizes</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>Git &amp; GitHub</h4>
+                <p>Version control &amp; collaboration</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>OOP</h4>
+                <p>Object-oriented principles &amp; patterns</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>Database</h4>
+                <p>Local &amp; cloud data persistence</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>Authentication</h4>
+                <p>Secure login &amp; token management</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>Clean Code</h4>
+                <p>SOLID, DRY, maintainable standards</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>API Integration</h4>
+                <p>Handling JSON &amp; async services</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>Android</h4>
+                <p>Platform conventions &amp; toolchains</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>iOS</h4>
+                <p>Cupertino standards &amp; mobile HIG</p>
+              </div>
+
+              <div class="skill-card">
+                <h4>Problem Solving</h4>
+                <p>Algorithmic thinking &amp; debugging</p>
+              </div>
+
+            </div>
+
+          </noscript>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         PROJECTS
+         ============================== -->
+
+    <section
+      class="section projects-section"
+      id="projects"
+      aria-label="Featured Projects Section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-header">
+
+          <p class="section-subtitle">
+            Portfolio Showcase
+          </p>
+
+          <h2 class="section-title">
+            Featured Projects
+          </h2>
+
+          <div
+            class="section-title-line"
+            aria-hidden="true"
+          ></div>
+
+
+          <p class="section-intro">
+
+            A selection of modern mobile applications built with
+            Flutter. Replaceable project placeholders ready for
+            your actual production applications.
+
+          </p>
+
+        </div>
+
+
+        <div
+          class="projects-grid"
+          id="projects-grid"
+        >
+
+          <noscript>
+
+            <div class="project-card">
+
+              <h3>
+                Project One
+              </h3>
+
+              <p>
+                Modern Flutter mobile application with responsive
+                UI and REST API integration.
+              </p>
+
+            </div>
+
+          </noscript>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         TESTIMONIALS
+         ============================== -->
+
+    <section
+      class="section testimonials-section"
+      id="testimonials"
+      aria-label="Testimonials Section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-header">
+
+          <p class="section-subtitle">
+            Collaborations &amp; Feedback
+          </p>
+
+          <h2 class="section-title">
+            What People Say
+          </h2>
+
+          <div
+            class="section-title-line"
+            aria-hidden="true"
+          ></div>
+
+
+          <p class="section-intro">
+
+            <em>
+              Note: The cards below represent editable recommendation
+              placeholders ready to be updated with authentic colleague
+              and client feedback.
+            </em>
+
+          </p>
+
+        </div>
+
+
+        <div
+          class="testimonials-grid"
+          id="testimonials-grid"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         SERVICES
+         ============================== -->
+
+    <section
+      class="section services-section"
+      id="services"
+      aria-label="Services Section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-header">
+
+          <p class="section-subtitle">
+            What I Offer
+          </p>
+
+          <h2 class="section-title">
+            Services
+          </h2>
+
+          <div
+            class="section-title-line"
+            aria-hidden="true"
+          ></div>
+
+
+          <p class="section-intro">
+
+            Comprehensive mobile engineering solutions tailored
+            to build, scale, and optimize cross-platform Flutter
+            applications.
+
+          </p>
+
+        </div>
+
+
+        <div
+          class="services-grid"
+          id="services-grid"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         CONTACT
+         ============================== -->
+
+    <section
+      class="section contact-section"
+      id="contact"
+      aria-label="Contact Section"
+    >
+
+      <div class="container">
+
+
+        <div class="section-header">
+
+          <p class="section-subtitle">
+            Let's Connect
+          </p>
+
+          <h2 class="section-title">
+            Contact Me
+          </h2>
+
+          <div
+            class="section-title-line"
+            aria-hidden="true"
+          ></div>
+
+
+          <p class="section-intro">
+
+            Have a mobile project in mind or interested in hiring
+            a dedicated Flutter Developer? Reach out and let's
+            create something remarkable together.
+
+          </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+          <!-- CONTACT INFORMATION -->
+
+          <div class="contact-info-panel">
+
+            <h3 class="panel-title">
+              Contact Information
+            </h3>
+
+
+            <p class="panel-description">
+
+              Feel free to connect directly via email or on my
+              professional developer profiles.
+
+            </p>
+
+
+            <div class="contact-methods">
+
+
+              <!-- Email -->
+
+              <a
+                href="mailto:hanaa.tarek.dev@example.com"
+                class="contact-method-card"
+                aria-label="Send email to Hanaa Tarek"
+              >
+
+                <div class="method-icon-box">
+
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#FCF1D0"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    ></path>
+
+                    <polyline
+                      points="22,6 12,13 2,6"
+                    ></polyline>
+
+                  </svg>
+
+                </div>
+
+
+                <div class="method-details">
+
+                  <span class="method-label">
+                    Email
+                  </span>
+
+                  <span class="method-value">
+                    hanaa.tarek.dev@example.com
+                  </span>
+
+                </div>
+
+              </a>
+
+
+              <!-- LinkedIn -->
+
+              <a
+                href="https://linkedin.com/in/hanaa-tarek"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-method-card"
+                aria-label="Visit Hanaa Tarek LinkedIn Profile"
+              >
+
+                <div class="method-icon-box">
+
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#FCF1D0"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+
+                    <path
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                    ></path>
+
+                    <rect
+                      x="2"
+                      y="9"
+                      width="4"
+                      height="12"
+                    ></rect>
+
+                    <circle
+                      cx="4"
+                      cy="4"
+                      r="2"
+                    ></circle>
+
+                  </svg>
+
+                </div>
+
+
+                <div class="method-details">
+
+                  <span class="method-label">
+                    LinkedIn
+                  </span>
+
+                  <span class="method-value">
+                    linkedin.com/in/hanaa-tarek
+                  </span>
+
+                </div>
+
+              </a>
+
+
+              <!-- GitHub -->
+
+              <a
+                href="https://github.com/hanaatarek"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-method-card"
+                aria-label="Visit Hanaa Tarek GitHub Profile"
+              >
+
+                <div class="method-icon-box">
+
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#FCF1D0"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+
+                  </svg>
+
+                </div>
+
+
+                <div class="method-details">
+
+                  <span class="method-label">
+                    GitHub
+                  </span>
+
+                  <span class="method-value">
+                    github.com/hanaatarek
+                  </span>
+
+                </div>
+
+              </a>
+
+            </div>
+
+
+            <!-- Availability -->
+
+            <div class="availability-badge">
+
+              <span class="avail-icon">
+                📍
+              </span>
+
+
+              <div class="avail-text">
+
+                <strong>
+                  Location &amp; Availability
+                </strong>
+
+                <span>
+                  Open for remote mobile opportunities &amp;
+                  freelance projects
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- CONTACT FORM -->
+
+          <div class="contact-form-panel">
+
+            <h3 class="panel-title">
+              Send a Message
+            </h3>
+
+
+            <div
+              id="form-status"
+              class="form-status"
+              role="alert"
+              aria-live="polite"
+            ></div>
+
+
+            <form
+              id="contact-form"
+              class="contact-form"
+              novalidate
+            >
+
+
+              <!-- Name -->
+
+              <div class="form-group">
+
+                <label
+                  for="contact-name"
+                  class="form-label"
+                >
+
+                  Full Name
+                  <span
+                    class="required"
+                    aria-hidden="true"
+                  >
+                    *
+                  </span>
+
+                </label>
+
+
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="name"
+                  class="form-input"
+                  placeholder="e.g. Sarah Jenkins"
+                  required
+                  autocomplete="name"
+                >
+
+
+                <span
+                  class="field-error"
+                  id="error-name"
+                  aria-live="polite"
+                ></span>
+
+              </div>
+
+
+              <!-- Email -->
+
+              <div class="form-group">
+
+                <label
+                  for="contact-email"
+                  class="form-label"
+                >
+
+                  Email Address
+                  <span
+                    class="required"
+                    aria-hidden="true"
+                  >
+                    *
+                  </span>
+
+                </label>
+
+
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  class="form-input"
+                  placeholder="e.g. sarah@example.com"
+                  required
+                  autocomplete="email"
+                >
+
+
+                <span
+                  class="field-error"
+                  id="error-email"
+                  aria-live="polite"
+                ></span>
+
+              </div>
+
+
+              <!-- Subject -->
+
+              <div class="form-group">
+
+                <label
+                  for="contact-subject"
+                  class="form-label"
+                >
+
+                  Subject
+                  <span
+                    class="required"
+                    aria-hidden="true"
+                  >
+                    *
+                  </span>
+
+                </label>
+
+
+                <input
+                  type="text"
+                  id="contact-subject"
+                  name="subject"
+                  class="form-input"
+                  placeholder="e.g. Flutter Application Development Project"
+                  required
+                >
+
+
+                <span
+                  class="field-error"
+                  id="error-subject"
+                  aria-live="polite"
+                ></span>
+
+              </div>
+
+
+              <!-- Message -->
+
+              <div class="form-group">
+
+                <label
+                  for="contact-message"
+                  class="form-label"
+                >
+
+                  Your Message
+                  <span
+                    class="required"
+                    aria-hidden="true"
+                  >
+                    *
+                  </span>
+
+                </label>
+
+
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  class="form-textarea"
+                  rows="5"
+                  placeholder="Tell me about your mobile project, goals, or timeline..."
+                  required
+                ></textarea>
+
+
+                <span
+                  class="field-error"
+                  id="error-message"
+                  aria-live="polite"
+                ></span>
+
+              </div>
+
+
+              <!-- Submit -->
+
+              <button
+                type="submit"
+                id="submit-btn"
+                class="btn btn-primary btn-block"
+              >
+
+                <span>
+                  Send Message
+                </span>
+
+
+                <svg
+                  class="btn-icon"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+
+                  <line
+                    x1="22"
+                    y1="2"
+                    x2="11"
+                    y2="13"
+                  ></line>
+
+                  <polygon
+                    points="22 2 15 22 11 13 2 9 22 2"
+                  ></polygon>
+
+                </svg>
+
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ==============================
+       FOOTER
+       ============================== -->
+
+  <footer
+    class="site-footer"
+    role="contentinfo"
+  >
+
+    <div class="container footer-container">
+
+
+      <div class="footer-top">
+
+
+        <div class="footer-brand">
+
+
+          <a
+            href="#home"
+            class="brand-logo"
+            aria-label="Hanaa Tarek Portfolio"
+          >
+
+            <span class="logo-symbol">
+              &lt;HT /&gt;
+            </span>
+
+            <span class="logo-text">
+              Hanaa Tarek
+            </span>
+
+          </a>
+
+
+          <p class="footer-tagline">
+
+            Building modern, reliable, and responsive Flutter
+            mobile applications with clean architecture and
+            scalable code.
+
+          </p>
+
+        </div>
+
+
+        <!-- Footer Navigation -->
+
+        <div class="footer-nav">
+
+          <h4 class="footer-heading">
+            Quick Navigation
+          </h4>
+
+
+          <ul class="footer-links">
+
+            <li>
+              <a href="#home">Home</a>
+            </li>
+
+            <li>
+              <a href="#about">About</a>
+            </li>
+
+            <li>
+              <a href="#education">Education</a>
+            </li>
+
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+              <a href="#services">Services</a>
+            </li>
+
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Social -->
+
+        <div class="footer-social">
+
+          <h4 class="footer-heading">
+            Connect
+          </h4>
+
+
+          <div class="social-icons">
+
+
+            <!-- GitHub -->
+
+            <a
+              href="https://github.com/hanaatarek"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn"
+              aria-label="GitHub Profile"
+            >
+
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+
+              </svg>
+
+            </a>
+
+
+            <!-- LinkedIn -->
+
+            <a
+              href="https://linkedin.com/in/hanaa-tarek"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn"
+              aria-label="LinkedIn Profile"
+            >
+
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+
+                <rect
+                  x="2"
+                  y="9"
+                  width="4"
+                  height="12"
+                ></rect>
+
+                <circle
+                  cx="4"
+                  cy="4"
+                  r="2"
+                ></circle>
+
+              </svg>
+
+            </a>
+
+
+            <!-- Email -->
+
+            <a
+              href="mailto:hanaa.tarek.dev@example.com"
+              class="social-btn"
+              aria-label="Send Email"
+            >
+
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                ></path>
+
+                <polyline
+                  points="22,6 12,13 2,6"
+                ></polyline>
+
+              </svg>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Footer Bottom -->
+
+      <div class="footer-bottom">
+
+        <p class="copyright-text">
+
+          &copy;
+
+          <span id="current-year">
+            2026
+          </span>
+
+          Hanaa Tarek.
+          All rights reserved.
+          Built with modern HTML5, CSS3, &amp; Vanilla JavaScript.
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ==============================
+       BACK TO TOP
+       ============================== -->
+
+  <button
+    id="back-to-top"
+    class="back-to-top"
+    aria-label="Back to top of page"
+    title="Scroll back to top"
+  >
+
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+
+      <polyline
+        points="18 15 12 9 6 15"
+      ></polyline>
+
+    </svg>
+
+  </button>
+
+
+  <!-- JavaScript -->
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
